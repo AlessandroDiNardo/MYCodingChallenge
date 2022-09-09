@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.background{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 35px;
+}
+
+.container{
+  width: 1500px;
+  margin: auto;
+  background:black;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  padding: 8%;
+}
+
+.logo{
+  width: 200px;
+}
+
+.logo-text{
+  color: #00dd00;
+}
+
+.logo-text, main{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header, nav{
+  text-align: center;
+}
+
+nav{
+  background-color: #00dd00;
+  padding: 10px;
+}
+
+.button{
+  text-align: center;
+}
+
+main{
+  color: white;
+}
+
+h3{
+  display: inline-block;
+  margin: auto;
+}
+
+.first{
+  background-color: orange;
+  height: 30px;
+  border-radius: 10px;
+  border-color:orange;
+  margin-left: 0px;
+  width: 350px;
+}
+
+.second{
+  background-color: #00dd00;
+  height: 30px;
+  border-radius: 10px;
+  border-color:#00dd00;
+  margin-left: 0px;
+  width: 500px;
+}
+
+.third{
+  background-color: red;
+  height: 30px;
+  border-radius: 10px;
+  border-color:red;
+  margin-left: 0px;
+  width: 150px;
+}
